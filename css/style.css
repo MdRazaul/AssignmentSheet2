@@ -1,0 +1,59 @@
+*{
+	margin:0px;
+	padding: 0px
+}
+
+.container{
+	width: 650px;
+	margin:10% auto;
+}
+
+body {
+	background:url(../img/bgone.jpg) no-repeat; 
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+.longin-section{
+	background: #2196f39c
+	padding: 25px;
+}
+
+.longin-section img {
+	width: 200px;
+	margin:0px auto;
+	display: block;
+}
+
+.longin-section h2 {
+	text-align: center;
+	color: #ffff;
+	text-transform: uppercase;
+	margin: 10px 0px;
+}
+
+.form-control {
+	width: 96%;
+	height: 35%;
+	margin-bottom: 10px;
+	padding: 5px
+}
+
+.submit-btn {
+	background: maroon;
+	color: #ffff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+	-moz-transition:0.4s ease-in-out;
+	-o-transition:.04s ease-in-out;
+	-webkit-transition:0.4s ease-in-out;
+}
+
+.submit-btn:hover{
+	box-shadow: 2px 4px 8px #ffff;
+}
+
+
